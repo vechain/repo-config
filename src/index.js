@@ -4,7 +4,7 @@ const EslintReact = require("./eslint/react.js");
 const EslintLibrary = require("./eslint/library.js");
 const TsConfigBase = require("./tsconfig/base.json");
 const TsConfigReact = require("./tsconfig/react.json");
-const TsConfigLibrary = require("./tsconfig/library.json");
+const TsConfigReactLibrary = require("./tsconfig/react-library.json");
 
 module.exports = {
   Prettier,
@@ -13,5 +13,5 @@ module.exports = {
   EslintLibrary,
   TsConfigBase,
   TsConfigReact,
-  TsConfigLibrary,
+  TsConfigReactLibrary,
 };
