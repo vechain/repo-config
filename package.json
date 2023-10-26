@@ -1,0 +1,14 @@
+{
+  "name": "@vechain/repo-config",
+  "version": "1.0.1",
+  "description": "Vechain Prettier config",
+  "main": "src/index.js",
+  "repository": "git@github.com:vechainfoundation/prettier-config.git",
+  "author": "Davide Carpini <davide.carpini@vechain.org>",
+  "license": "MIT",
+  "dependencies": {
+    "@react-native/eslint-config": "^0.72.2",
+    "@vercel/style-guide": "^4.0.2",
+    "eslint-config-turbo": "latest"
+  }
+}
